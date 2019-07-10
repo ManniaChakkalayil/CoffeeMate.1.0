@@ -58,4 +58,6 @@ public class Base extends AppCompatActivity {
 	     public void menuHome(MenuItem m) {
 		    goToActivity(this, Home.class, null); }
 
+	public void menusettings(MenuItem m) {
+		goToActivity(this, settings.class, null); }
 }
